@@ -19,6 +19,7 @@
 * [Flutter](#flutter) `wait`
 * [前端框架](#前端框架) `doing`
 * [node.js](#nodejs) `doing`
+* [test](./test.md)
 
 ## 面试
 
