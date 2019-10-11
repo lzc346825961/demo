@@ -1,10 +1,11 @@
 # 前端总结
 
+[![interview]](./interview/index.md)
 [![framework]](./framework/index.md)
 
+[interview]:https://img.shields.io/badge/面试-interview-4FC08D?style=flat-square&labelColor=339966
 [framework]:https://img.shields.io/badge/前端框架-framework-4FC08D?style=flat-square&labelColor=339966&logo=Vue.js&logoColor=fff
 
-* [面试](#面试) `doing`
 * [浏览器](#浏览器) `wait`
 * [网络协议](#网络协议) `wait`
 * [设计模式](#设计模式) `wait`
@@ -25,15 +26,6 @@
 * [前端框架](#前端框架) `doing`
 * [node.js](#nodejs) `doing`
 * [test](./test.md)
-
-## 面试
-
-基础知识
-职业生涯
-一面/二面/三面
-开源看法/如何开源
-熟悉一门后端
-遇到问题怎么解决
 
 ## 浏览器
 
