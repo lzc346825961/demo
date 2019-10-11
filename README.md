@@ -2,9 +2,11 @@
 
 [![interview]](./interview/index.md)
 [![framework]](./framework/index.md)
+[![css]](./css/index.md)
 
-[interview]:https://img.shields.io/badge/面试-interview-4FC08D?style=flat-square&labelColor=339966
+[interview]:https://img.shields.io/badge/面试-interview-1572B6?style=flat-square&logo=buffer&logoColor=fff
 [framework]:https://img.shields.io/badge/前端框架-framework-4FC08D?style=flat-square&labelColor=339966&logo=Vue.js&logoColor=fff
+[css]:https://img.shields.io/badge/css-framework-00aaee?style=flat-square&labelColor=1572B6&logo=css3
 
 * [浏览器](#浏览器) `wait`
 * [网络协议](#网络协议) `wait`
@@ -19,7 +21,6 @@
 * [小程序](#小程序) `wait`
 * [微信公众号](#微信公众号) `wait`
 * [HTML](#html) `wait`
-* [CSS](#css) `wait`
 * [ECMAScript](#ecmascript) `wait`
 * [Typescript](#typescript) `wait`
 * [Flutter](#flutter) `wait`
@@ -105,15 +106,6 @@ DOM
 事件
 渲染机制
 
-## CSS
-
-选择器
-盒子布局
-弹性布局
-hack
-预处理语言 less sass stylus
-媒体查询
-动画
 
 ## ECMAScript
 
