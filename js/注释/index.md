@@ -1,6 +1,6 @@
 [![notes]](../index.md)
 
-[notes]:https://img.shields.io/badge/注释-notes-4FC08D?style=social&labelColor=339966&logo=Vue.js&logoColor=339966
+[notes]:https://img.shields.io/badge/注释-notes-4FC08D?style=social&labelColor=339966&logo=javascript&logoColor=339966
 
 好的注释可以提高代码的可读性和可维护性，从而提高代码质量。
 

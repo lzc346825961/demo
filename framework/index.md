@@ -4,15 +4,15 @@
 
 [![vue]](./vue/index.md)
 
-[vue]:https://img.shields.io/badge/vue-doing-inactive?style=flat-square&labelColor=339966&logo=Vue.js
+[vue]:https://img.shields.io/badge/vue-doing-inactive?labelColor=339966&logo=Vue.js
 
 [![react]](./react/index.md)
 
-[react]:https://img.shields.io/badge/react-doing-inactive?style=flat-square&labelColor=002050&logo=react
+[react]:https://img.shields.io/badge/react-doing-inactive?labelColor=002050&logo=react
 
 [![bootstrap]](./bootstrap/index.md)
 
-[bootstrap]:https://img.shields.io/badge/bootstrap-wait-inactive?style=flat-square&labelColor=563D7C&logo=bootstrap
+[bootstrap]:https://img.shields.io/badge/bootstrap-wait-inactive?labelColor=563D7C&logo=bootstrap
 
 antd
 elementui
