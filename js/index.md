@@ -14,3 +14,6 @@
 
 [Notes]:https://img.shields.io/badge/注释-Notes-4FC08D
 
+[![lib]](./lib/index.md)
+
+[lib]:https://img.shields.io/badge/js-lib-4FC08D
