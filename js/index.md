@@ -17,3 +17,22 @@
 [![lib]](./lib/index.md)
 
 [lib]:https://img.shields.io/badge/js-lib-4FC08D
+
+[![js高级]](./lib/index.md)
+
+[js高级]:https://img.shields.io/badge/js-高级-4FC08D
+
+函数式编程
+面向对象
+原型及原型链
+继承
+运动框架封装
+帧动画
+Ajax、json、jsonp
+模块化
+Require.js、sea.js
+Jquery选择器
+Jquery事件方法
+Jquery效果
+兼容性问题
+浏览器讲解

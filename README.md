@@ -16,13 +16,18 @@
 
 [js]:https://img.shields.io/badge/js-framework-F7DF1E?style=flat-square&logo=JavaScript
 
+* [Typescript](./typescript/index.md) `wait`
+* [性能优化](./性能优化/index.md) `wait`
+
+[![automation]](./automation/index.md)
+
+[automation]:https://img.shields.io/badge/自动化-automation-4FC08D?style=flat-square&logo=automatic&logoColor=fff
+
 * [浏览器](#浏览器) `wait`
 * [网络协议](#网络协议) `wait`
 * [设计模式](#设计模式) `wait`
 * [工程化](#工程化) `wait`
-* [性能优化](#性能优化) `wait`
 * [前端安全](#前端安全) `wait`
-* [自动化测试](#自动化测试) `wait`
 * [工具调试](#工具调试) `wait`
 * [算法与数据结构](#算法与数据结构) `wait`
 * [混合app](#混合app) `wait`
@@ -30,7 +35,7 @@
 * [微信公众号](#微信公众号) `wait`
 * [HTML](#html) `wait`
 * [ECMAScript](#ecmascript) `wait`
-* [Typescript](#typescript) `wait`
+
 * [Flutter](#flutter) `wait`
 * [前端框架](#前端框架) `doing`
 * [node.js](#nodejs) `doing`
@@ -60,7 +65,6 @@ git
 
 mock
 
-## 性能优化
 ## 前端安全
 
 漏洞
@@ -70,10 +74,7 @@ CSRF
 SQL注入攻击
 爬虫对抗
 
-## 自动化测试
 
-cypress
-puppeteer
 
 ## 工具调试
 
@@ -121,8 +122,3 @@ DOM
 进阶
 正则表达式
 ES6
-
-## Typescript
-## Flutter
-
-## Nodejs

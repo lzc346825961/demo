@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>对同一元素设置overflow-x:visible;overflow-y:auto;属性值不生效</title>
+</head>
+<body>
+    <h1>对同一元素设置overflow-x:visible;overflow-y:auto;属性值不生效</h1>
+    根据W3C的说法
+
+    也就是说，overflow-x和overflow-y的计算值跟给定的值相同，除了某些跟’visible’值的不合理组合：如果一个其中一个属性的值被赋为’visible’，而另一个被赋值为’scroll’或’auto’，那么’visible’会被重置为’auto’。overflow的计算值与overflow-x相等（如果overflow-y相同的话）；否则就是一对overflow-x和overflow-y的计算值。其实另一个值设置为hidden的时候，visible也会被重置为auto。
+    <img src="./ex.png" alt="">
+</body>
+</html>
