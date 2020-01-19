@@ -1,19 +1,12 @@
-[![framework]](../README.md)
+# [framework](../README.md)
+***
+## [vue](./vue/index.md)
 
-[framework]:https://img.shields.io/badge/前端框架-framework-4FC08D?style=social&labelColor=339966&logo=Vue.js&logoColor=339966
+## [react](./react/index.md)
 
-[![vue]](./vue/index.md)
+## [bootstrap](./bootstrap/index.md)
 
-[vue]:https://img.shields.io/badge/vue-doing-inactive?labelColor=339966&logo=Vue.js
-
-[![react]](./react/index.md)
-
-[react]:https://img.shields.io/badge/react-doing-inactive?labelColor=002050&logo=react
-
-[![bootstrap]](./bootstrap/index.md)
-
-[bootstrap]:https://img.shields.io/badge/bootstrap-wait-inactive?labelColor=563D7C&logo=bootstrap
-
+## [ant-design](./antd/index.md)
 
 前端路由实现原理
 antd

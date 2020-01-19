@@ -13,3 +13,5 @@
 [![14种组件通讯]](./3.14种组件通讯.md)
 
 [14种组件通讯]:https://img.shields.io/badge/3-14种组件通讯-inactive?style=social&logo=Vue.js&logoColor=339966
+
+## [vue双向绑定原理](./vue双向绑定原理.md)
