@@ -1,8 +1,6 @@
 # 前端总结
 
-[![interview]](./interview/index.md)
-
-[interview]:https://img.shields.io/badge/面试-interview-1572B6?style=flat-square&logo=buffer&logoColor=fff
+* [面试](./面试/index.md) `wait`
 
 [![framework]](./framework/index.md)
 
