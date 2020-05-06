@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="divport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .integr-price {
+        position: relative;
+        display: inline-flex;
+        height: 60px;
+        align-items: center;
+        border-radius: 20px;
+        border-bottom-right-radius: 0;
+        color: #fff;
+        padding: 0 10px;
+        background-color: rgb(12, 105, 175);
+        font-size: 22px;
+    }
+
+    .tail {
+        position: absolute;
+        right: 0;
+        bottom: 40px;
+    }
+
+    .tail:before,
+    .tail:after {
+        position: absolute;
+        content: '';
+        border: 20px solid;
+        border-color: transparent transparent rgb(12, 105, 175) rgb(12, 105, 175);
+    }
+    .tail:after {
+    border-color: transparent transparent #fff #fff;
+    border-bottom-left-radius: 100%;
+}
+</style>
+
+<body>
+    <div class="integr-price">
+        <text>500</text>
+        积分
+        <text class="tail"></text>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var Vehicle = function (price = 1000) {
+            this.price = price;
+        };
+        let a = new Vehicle(),
+            b = new Vehicle(20)
+        console.log(Vehicle.prototype)
+        console.log(a)
+        console.log(b)
+        // new命令本身就可以执行构造函数，所以后面的构造函数可以带括号，也可以不带括号。下面两行代码是等价的，但是为了表示这里是函数调用，推荐使用括号。
+        // 推荐的写法
+        var v = new Vehicle();
+        // 不推荐的写法
+        var v = new Vehicle;
+    </script>
+</body>
+
+</html>

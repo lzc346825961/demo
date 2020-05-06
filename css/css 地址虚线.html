@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .hr,.test {
+        --hr-height: 6px;
+        --hr-blue: #4281b6;
+        --hr-gray: #ababab;
+        --hr-red: #942B41;
+        --hr-width: 80px;
+        --hr-deg: 45deg;
+        height: var(--hr-height);
+        position: relative;
+        background-color: var(--hr-gray);
+    }
+
+    .hr:after,
+    .hr:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: var(--hr-height);
+        bottom: 0;
+        left: 0;
+    }
+
+    .hr:before {
+        background-image: linear-gradient(var(--hr-deg), transparent 0%, transparent 30%, var(--hr-red) 30%, var(--hr-red) 70%, transparent 70%, transparent 100%);
+        background-size: var(--hr-width);
+        background-position: center;
+        z-index: 1;
+    }
+
+    .hr:after {
+        background: linear-gradient(var(--hr-deg), transparent 0%, transparent 30%, var(--hr-blue) 30%, var(--hr-blue) 70%, transparent 70%, transparent 100%);
+        background-size: var(--hr-width);
+        background-position: calc(var(--hr-width) * 30%);
+    }
+
+    .test {
+        margin-top: 100px;
+        height: var(--hr-height);
+        /* background-image: linear-gradient(45deg, red, yellow, blue); */
+        background: linear-gradient(var(--hr-deg), var(--hr-gray) 0%, var(--hr-gray) 10%, var(--hr-red) 10%, var(--hr-red) 45%,  var(--hr-gray) 45%, var(--hr-gray) 55%,var(--hr-blue) 55%, var(--hr-blue) 90%, var(--hr-gray) 90%, var(--hr-gray) 100%);
+        background-size: 100px;
+    }
+</style>
+
+<body>
+    <div class="hr"></div>
+
+    <div class="test"></div>
+</body>
+
+</html>
